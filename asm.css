@@ -1,0 +1,116 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+header{
+    height: 200px;
+    background-image: url(img/annnn.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position: center center;
+    background-color: green;
+    width: 100%;
+}
+.abc{
+    background-color: wheat;
+    color: black;
+    font-size: larger;
+    /* text-align: center; */
+    position: relative;
+    top: 70px;
+    padding: 30px;
+}
+nav{
+    background: #272f54; 
+    height: 40px;     
+}
+aside{
+    background-color: white;
+    height: 985px;
+}
+article{
+    background-color: brown;
+    height: 250px;
+}
+.container>nav>a:hover{
+    color: yellow;
+}
+.container>nav>a{
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.text{
+    width: 220px;
+    height: 20px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+.tietkiem{
+    width: 90px;
+    height: 20px;
+    background: orange;
+    border: 0.5 solid white;
+}
+form{
+    text-align: right;
+    margin-right: 35px;
+}
+article img{
+    width: 100%;
+    height: 100%;
+}
+.dt{
+    width: 1200px;
+    height: 65px;
+    line-height: 20px;
+}
+.dt p{
+    color:#272f54;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sp1{
+    width: 315px;
+    height: 400px;
+    border: 0.5px solid red;
+    text-align: center;
+    background:  red;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    margin: 30px;
+}
+
+aside img{
+    height: 240px;
+    width: 315px;
+}
+.ten a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.xemthem a{
+    border: solid 0.5 red;
+    background: white;
+    font-size: larger;
+    text-decoration: none;
+}
+

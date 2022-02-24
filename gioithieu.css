@@ -1,0 +1,66 @@
+header{
+    height: 100px;
+    background-image: url(img/annnn.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position: center center;
+    background-color: green;
+    width: 100%;
+}
+
+.abc{
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+}
+.adc{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+nav{
+    background: #272f54; 
+    height: 40px;     
+}
+.container>nav>a:hover{
+    color: yellow;
+}
+.container>nav>a{
+    color: black;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    line-height: 35px;
+    padding-left: 50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.text{
+    width: 220px;
+    height: 20px;
+    border: none;
+    background: white;
+    padding-left: 5px;
+    margin-top: 8px;
+}
+form{
+    text-align: right;
+    margin-right: 35px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
